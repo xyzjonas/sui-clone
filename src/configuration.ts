@@ -54,6 +54,11 @@ export const configuration: Configuration = {
           link: "https://portainer.bohunky.xyz",
           icon: "si-docker",
         },
+        {
+          title: "Miniflux",
+          link: "https://miniflux.bohunky.xyz/",
+          icon: "si-rss",
+        }
       ],
     },
     {

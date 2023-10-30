@@ -92,6 +92,11 @@ export const configuration: Configuration = {
           icon: "file_download",
         },
         {
+          title: "Sonarr",
+          link: "http://192.168.0.203:8989",
+          icon: "live_tv",
+        },
+        {
           title: "Filebrowser",
           link: "http://192.168.0.203:8084",
           icon: "folder_open",

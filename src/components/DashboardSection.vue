@@ -24,9 +24,11 @@ const gridCols = computed(() => [...Array(props.section.maxCols).keys()].map(() 
 <style lang="scss" scoped>
 h1 {
   border-bottom: 1px solid var(--color-border);
+  border-color: color-mix(in srgb, v-bind("section.color") 40%, var(--color-text));
   margin-bottom: 0.8rem;
   transition: 0.1s ease-in-out;
   text-transform: uppercase;
+  color: color-mix(in srgb, v-bind("section.color") 70%, var(--color-text));
 }
 .dashboard-section {
   border-radius: 4px;
@@ -51,6 +53,7 @@ h1 {
 
   &:hover {
     background-color: #1f1e1e97;
+    background-color: color-mix(in srgb, v-bind("section.color") 5%, var(--color-background));
 
     h1 {
       font-weight: 600;

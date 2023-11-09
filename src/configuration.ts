@@ -10,6 +10,7 @@ export type Section = {
   bookmarks: Bookmark[];
   icon?: string;
   maxCols?: number;
+  color?: string;
 };
 
 export type Configuration = {
@@ -23,6 +24,7 @@ export const configuration: Configuration = {
       title: "public",
       icon: "public",
       maxCols: 1,
+      color: "#3876BF",
       bookmarks: [
         {
           title: "Household HQ",
@@ -58,13 +60,14 @@ export const configuration: Configuration = {
           title: "Miniflux",
           link: "https://miniflux.bohunky.xyz/",
           icon: "si-rss",
-        }
+        },
       ],
     },
     {
       title: "home",
       icon: "home",
       maxCols: 2,
+      color: "#79AC78",
       bookmarks: [
         {
           title: "Emby",

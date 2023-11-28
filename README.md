@@ -1,4 +1,4 @@
-# Nexusdash
+# Dashboard
 
 My own tweaked clone of the [SUI project](https://github.com/jeroenpardon/sui) - i.e. static "home page" app.
 

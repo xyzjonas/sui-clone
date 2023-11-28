@@ -15,7 +15,7 @@ export default defineConfig({
         enabled: true,
       },
       manifest: {
-        name: "nexus-dash",
+        name: "Dashboard",
         short_name: "Dashboard",
         description: "static dashboard page with personal links and shortcuts",
         theme_color: "#181818",

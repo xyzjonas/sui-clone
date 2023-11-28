@@ -97,7 +97,7 @@ export const configuration: Configuration = {
         {
           title: "Mediasorter",
           link: "http://dazhbog.home:8086/",
-          icon: "stock_media",
+          icon: "recycling",
         },
         {
           title: "Sonarr",

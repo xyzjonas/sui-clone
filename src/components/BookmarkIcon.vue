@@ -37,4 +37,8 @@ const RGBAToHexA = (rgba: string, forceRemoveAlpha = true) => {
 const style = getComputedStyle(document.body);
 const textColor = RGBAToHexA(style.getPropertyValue("--color-text-hex")).replace("#", "");
 </script>
-<style lang=""></style>
+<style lang="scss" scoped>
+.material-icons {
+  font-size: 2.2rem;
+}
+</style>

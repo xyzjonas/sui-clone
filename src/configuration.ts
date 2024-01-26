@@ -33,7 +33,7 @@ export const configuration: Configuration = {
         },
         {
           title: "Chef",
-          link: "https://chef-astro.vercel.app/",
+          link: "https://chef.bohunky.xyz/",
           icon: "restaurant_menu",
         },
         {

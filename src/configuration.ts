@@ -116,7 +116,7 @@ export const configuration: Configuration = {
         },
         {
           title: "Dazhbog",
-          link: "https://192.168.0.203:9090",
+          link: "https://192.168.0.203:9090/system",
           icon: "si-fedora",
         },
       ],

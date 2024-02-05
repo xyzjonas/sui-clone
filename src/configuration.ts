@@ -71,27 +71,27 @@ export const configuration: Configuration = {
       bookmarks: [
         {
           title: "Emby",
-          link: "http://192.168.0.203:8096",
+          link: "https://emby.home.local",
           icon: "si-emby",
         },
         {
           title: "Jellyfin",
-          link: "http://192.168.0.203:8097",
+          link: "https://jellyfin.home.local",
           icon: "si-jellyfin",
         },
         {
           title: "PiHole",
-          link: "http://pihole.home/admin/index.php",
+          link: "http://pihole.home.local/admin",
           icon: "si-pihole",
         },
         {
           title: "Homeassistant",
-          link: "http://homeassistant.home",
+          link: "http://homeassistant.home.local:8123",
           icon: "si-homeassistant",
         },
         {
           title: "qBittorrent",
-          link: "http://192.168.0.203:8083",
+          link: "https://qbittorrent.home.local/",
           icon: "file_download",
         },
         {
@@ -106,7 +106,7 @@ export const configuration: Configuration = {
         },
         {
           title: "Filebrowser",
-          link: "http://192.168.0.203:8084",
+          link: "https://filebrowser.home.local",
           icon: "folder_open",
         },
         {
@@ -116,7 +116,7 @@ export const configuration: Configuration = {
         },
         {
           title: "Dazhbog",
-          link: "https://192.168.0.203:9090/system",
+          link: "https://dazhbog.home.local:9090/system",
           icon: "si-fedora",
         },
       ],

@@ -82,7 +82,7 @@ export const configuration: Configuration = {
         {
           title: "PhotoPrism",
           link: "https://photos.home.local",
-          icon: "gallery_thumbnail",
+          icon: "collections",
         },
         {
           title: "PiHole",

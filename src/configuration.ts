@@ -80,6 +80,11 @@ export const configuration: Configuration = {
           icon: "si-jellyfin",
         },
         {
+          title: "PhotoPrism",
+          link: "https://photos.home.local",
+          icon: "gallery_thumbnail",
+        },
+        {
           title: "PiHole",
           link: "http://pihole.home.local/admin",
           icon: "si-pihole",

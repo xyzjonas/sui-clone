@@ -85,6 +85,11 @@ export const configuration: Configuration = {
           icon: "collections",
         },
         {
+          title: "Chef",
+          link: "https://chef.home.local",
+          icon: "restaurant_menu",
+        },
+        {
           title: "PiHole",
           link: "http://pihole.home.local/admin",
           icon: "si-pihole",

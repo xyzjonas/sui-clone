@@ -28,7 +28,7 @@ export const configuration: Configuration = {
       bookmarks: [
         {
           title: "Household HQ",
-          link: "https://householdhq.vercel.app/",
+          link: "https://home.bohunky.xyz/",
           icon: "payments",
         },
         {

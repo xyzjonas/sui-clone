@@ -121,7 +121,7 @@ export const configuration: Configuration = {
         },
         {
           title: "Portainer",
-          link: "https://192.168.0.203:9443",
+          link: "https://dazhbog.home.local:9443",
           icon: "si-docker",
         },
         {

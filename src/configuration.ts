@@ -80,9 +80,9 @@ export const configuration: Configuration = {
           icon: "si-jellyfin",
         },
         {
-          title: "PhotoPrism",
+          title: "Monica HQ",
           link: "https://photos.home.local",
-          icon: "collections",
+          icon: "si-monica",
         },
         {
           title: "Chef",
@@ -110,9 +110,9 @@ export const configuration: Configuration = {
           icon: "recycling",
         },
         {
-          title: "Sonarr",
-          link: "http://192.168.0.203:8989",
-          icon: "live_tv",
+          title: "Navidrome",
+          link: "http://192.168.0.212:8085",
+          icon: "si-musicbrainz",
         },
         {
           title: "Filebrowser",
@@ -126,7 +126,7 @@ export const configuration: Configuration = {
         },
         {
           title: "Dazhbog",
-          link: "https://dazhbog.home.local:9090/system",
+          link: "https://dazhbog.home.local:9090",
           icon: "si-fedora",
         },
       ],

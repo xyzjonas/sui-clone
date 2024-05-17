@@ -3,7 +3,7 @@
     <bookmark-icon :icon="bookmark.icon" />
     <div>
       <p class="title">{{ bookmark.title }}</p>
-      <p class="subtitle">{{ bookmark.subtitle ?? bookmark.link }}</p>
+      <p class="subtitle">{{ bookmark.subtitle ?? bookmark.link.replace("https://", "").replace("http://", "") }}</p>
     </div>
   </main>
 </template>
@@ -23,7 +23,7 @@ const openLink = () => {
 main {
   display: flex;
   flex-direction: row;
-  gap: 0.5rem;
+  gap: 1rem;
   align-items: center;
   padding: 0.5rem;
   border: 1px solid transparent;

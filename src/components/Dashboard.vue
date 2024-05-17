@@ -19,7 +19,6 @@ header {
   flex-direction: row;
   align-items: center;
   padding-left: 1rem;
-  margin-bottom: 1rem;
 }
 .dashboard {
   display: flex;

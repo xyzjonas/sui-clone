@@ -5,7 +5,7 @@
       {{ section.title }}
     </h1>
     <div class="dashboard-section-list">
-      <bookmark-item v-for="bookmark in section.bookmarks" :bookmark="bookmark" />
+      <bookmark-item v-for="bookmark in section.bookmarks.filter(b => !b.disabled)" :bookmark="bookmark" />
     </div>
   </div>
 </template>
@@ -29,6 +29,10 @@ h1 {
   transition: 0.1s ease-in-out;
   text-transform: uppercase;
   color: color-mix(in srgb, v-bind("section.color") 70%, var(--color-text));
+
+  display: flex;
+  align-items: center;
+  gap: .5rem
 }
 .dashboard-section {
   border-radius: 4px;
@@ -56,7 +60,6 @@ h1 {
     background-color: color-mix(in srgb, v-bind("section.color") 5%, var(--color-background));
 
     h1 {
-      font-weight: 600;
       margin-bottom: 1rem;
     }
   }

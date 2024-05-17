@@ -3,6 +3,7 @@ export type Bookmark = {
   subtitle?: string;
   icon?: string;
   link: string;
+  disabled?: boolean;
 };
 
 export type Section = {
@@ -21,7 +22,7 @@ export type Configuration = {
 export const configuration: Configuration = {
   sections: [
     {
-      title: "public",
+      title: "apps",
       icon: "public",
       maxCols: 1,
       color: "#3876BF",
@@ -45,28 +46,35 @@ export const configuration: Configuration = {
           title: "qBittorrent",
           link: "https://torrent.bohunky.xyz",
           icon: "file_download",
+          disabled: true,
         },
         {
-          title: "Filebrowser",
+          title: "Monica",
+          link: "https://monica.bohunky.xyz",
+          icon: "si-monica",
+        },
+        {
+          title: "Files",
           link: "https://filebrowser.bohunky.xyz",
           icon: "folder_open",
         },
         {
-          title: "Portainer",
-          link: "https://portainer.bohunky.xyz",
-          icon: "si-docker",
+          title: "Music",
+          link: "https://music.bohunky.xyz",
+          icon: "music_note",
         },
         {
           title: "Miniflux",
           link: "https://miniflux.bohunky.xyz/",
           icon: "si-rss",
+          disabled: true,
         },
       ],
     },
     {
       title: "home",
       icon: "home",
-      maxCols: 2,
+      maxCols: 1,
       color: "#79AC78",
       bookmarks: [
         {
@@ -80,19 +88,10 @@ export const configuration: Configuration = {
           icon: "si-jellyfin",
         },
         {
-          title: "Monica HQ",
-          link: "https://photos.home.local",
-          icon: "si-monica",
-        },
-        {
           title: "Chef",
           link: "https://chef.home.local",
           icon: "restaurant_menu",
-        },
-        {
-          title: "PiHole",
-          link: "http://pihole.home.local/admin",
-          icon: "si-pihole",
+          disabled: true,
         },
         {
           title: "Homeassistant",
@@ -103,24 +102,43 @@ export const configuration: Configuration = {
           title: "qBittorrent",
           link: "https://qbittorrent.home.local/",
           icon: "file_download",
+          disabled: true,
         },
         {
           title: "Mediasorter",
           link: "http://dazhbog.home:8086/",
           icon: "recycling",
+          disabled: true,
         },
         {
           title: "Navidrome",
           link: "http://192.168.0.212:8085",
-          icon: "si-musicbrainz",
+          icon: "music_note",
         },
         {
           title: "Filebrowser",
           link: "https://filebrowser.home.local",
-          icon: "folder_open",
+          icon: "folder",
+        },
+      ],
+    },
+    {
+      title: "infra",
+      icon: "dns",
+      color: "#ea4335",
+      bookmarks: [
+        {
+          title: "PiHole",
+          link: "http://pihole.home.local/admin",
+          icon: "si-pihole",
         },
         {
-          title: "Portainer",
+          title: "Portainer.public",
+          link: "https://portainer.bohunky.xyz",
+          icon: "si-docker",
+        },
+        {
+          title: "Portainer.local",
           link: "https://dazhbog.home.local:9443",
           icon: "si-docker",
         },
@@ -129,7 +147,7 @@ export const configuration: Configuration = {
           link: "https://dazhbog.home.local:9090",
           icon: "si-fedora",
         },
-      ],
+      ]
     },
   ],
 };

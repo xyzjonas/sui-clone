@@ -49,6 +49,11 @@ export const configuration: Configuration = {
           disabled: true,
         },
         {
+          title: "Vehicles",
+          link: "https://cars.bohunky.xyz",
+          icon: "directions_car",
+        },
+        {
           title: "Monica",
           link: "https://monica.bohunky.xyz",
           icon: "si-monica",

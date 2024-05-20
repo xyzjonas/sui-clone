@@ -3,11 +3,12 @@
     <bookmark-icon :icon="bookmark.icon" />
     <div>
       <p class="title">{{ bookmark.title }}</p>
-      <p class="subtitle">{{ bookmark.subtitle ?? bookmark.link.replace("https://", "").replace("http://", "") }}</p>
+      <p class="subtitle">{{ subtitle }}</p>
     </div>
   </main>
 </template>
 <script lang="ts" setup>
+import { computed } from "vue";
 import BookmarkIcon from "./BookmarkIcon.vue";
 import type { Bookmark } from "@/configuration";
 
@@ -18,6 +19,20 @@ const props = defineProps<{
 const openLink = () => {
   window.open(props.bookmark.link);
 };
+
+const subtitle = computed(() => {
+  let bmark = props.bookmark.subtitle ?? props.bookmark.link.replace("https://", "").replace("http://", "")
+  
+  if (bmark.endsWith("/")) {
+    bmark = bmark.substring(0, bmark.length - 1)
+  }
+
+  if (bmark.length > 27) {
+    bmark = bmark.substring(0, 26) + "..."
+  }
+
+  return bmark
+})
 </script>
 <style lang="scss" scoped>
 main {

@@ -11,7 +11,7 @@
 <script lang="ts" setup>
 import { computed } from "vue";
 
-const props = defineProps<{ icon?: string }>();
+const props = defineProps<{ icon?: string, color?: string }>();
 
 const simpleIcon = computed(() => {
   if (props.icon?.startsWith("si-")) {
@@ -35,7 +35,13 @@ const RGBAToHexA = (rgba: string, forceRemoveAlpha = true) => {
 };
 
 const style = getComputedStyle(document.body);
-const textColor = RGBAToHexA(style.getPropertyValue("--color-text-hex")).replace("#", "");
+const textColor = computed(() => {
+  console.info(RGBAToHexA(props.color ?? ''))
+  if (props.color) {
+    return props.color.replace("#", "")
+  }
+  return RGBAToHexA(style.getPropertyValue("--color-text-hex")).replace("#", "")
+});
 </script>
 <style lang="scss" scoped>
 .material-icons {

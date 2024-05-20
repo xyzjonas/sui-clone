@@ -1,7 +1,7 @@
 <template>
   <div class="dashboard-section">
     <h1>
-      <bookmark-icon v-if="section.icon" :icon="section.icon" />
+      <bookmark-icon v-if="section.icon" :icon="section.icon" :color="section.color"/>
       {{ section.title }}
     </h1>
     <div class="dashboard-section-list">

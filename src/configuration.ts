@@ -38,6 +38,16 @@ export const configuration: Configuration = {
           icon: "restaurant_menu",
         },
         {
+          title: "Chef #2",
+          link: "https://chef-nuxt.bohunky.xyz/",
+          icon: "restaurant_menu",
+        },
+        {
+          title: "Torrentbox",
+          link: "https://torrent.bohunky.xyz",
+          icon: "si-utorrent",
+        },
+        {
           title: "Homeassistant",
           link: "https://homeassistant.bohunky.xyz",
           icon: "si-homeassistant",
@@ -111,13 +121,12 @@ export const configuration: Configuration = {
         },
         {
           title: "Mediasorter",
-          link: "http://dazhbog.home:8086/",
+          link: "https://mediasorter.home.local",
           icon: "recycling",
-          disabled: true,
         },
         {
           title: "Navidrome",
-          link: "http://192.168.0.212:8085",
+          link: "https://music.home.local",
           icon: "music_note",
         },
         {

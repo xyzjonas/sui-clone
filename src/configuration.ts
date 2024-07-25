@@ -14,12 +14,23 @@ export type Section = {
   color?: string;
 };
 
+export type Links = {
+  title: string;
+  color?:  string;
+  links: {
+    label: string;
+    link: string;
+  }[]
+}
+
 export type Configuration = {
+  links: Links[];
   sections: Section[];
   maxCols?: number;
 };
 
 export const configuration: Configuration = {
+  links: [],
   sections: [
     {
       title: "apps",

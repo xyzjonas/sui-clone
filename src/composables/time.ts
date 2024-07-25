@@ -6,6 +6,9 @@ export function useTime() {
   const minutes = computed(() => datetime.value.getMinutes());
   const seconds = computed(() => datetime.value.getSeconds());
 
+  const date = computed(() => datetime.value.toDateString())
+
+
   setInterval(() => (datetime.value = new Date()), 1000);
 
   return {
@@ -13,5 +16,6 @@ export function useTime() {
     hours,
     minutes,
     seconds,
+    date,
   };
 }

@@ -236,6 +236,11 @@ const work: Dashboard = {
           link: "https://build.suse.de/package/show/NON_Public:maintenance:tools/mtk",
           icon: "handyman",
         },
+        {
+          title: "Packtrack",
+          link: "https://packtrack.suse.cz/",
+          icon: "deployed_code",
+        }
       ],
     },
     {

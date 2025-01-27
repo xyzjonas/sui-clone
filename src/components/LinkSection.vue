@@ -2,7 +2,7 @@
   <div class="section">
     <h1>{{ section.title }}</h1>
     <div class="section-list">
-      <a v-for="link in section.links" :href="link.link" target="_blank">{{ link.label }}</a>
+      <a v-for="link in section.links" :href="link.link">{{ link.label }}</a>
     </div>
   </div>
 </template>
@@ -51,6 +51,7 @@ h1 {
 a {
   cursor: pointer;
   text-decoration: none;
+  color: var(--color-text);
 }
 
 a:hover {

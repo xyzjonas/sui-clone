@@ -1,11 +1,11 @@
 <template>
-  <main @click="openLink">
-    <bookmark-icon :icon="bookmark.icon" />
+  <a :href="bookmark.link">
+    <BookmarkIcon :icon="bookmark.icon" />
     <div>
       <p class="title">{{ bookmark.title }}</p>
       <p class="subtitle">{{ subtitle }}</p>
     </div>
-  </main>
+  </a>
 </template>
 <script lang="ts" setup>
 import { computed } from "vue";
@@ -35,7 +35,7 @@ const subtitle = computed(() => {
 })
 </script>
 <style lang="scss" scoped>
-main {
+a {
   display: flex;
   flex-direction: row;
   gap: 1rem;
@@ -44,6 +44,8 @@ main {
   border: 1px solid transparent;
   border-radius: 4px;
   overflow: hidden;
+  text-decoration: none;
+  color: var(--color-text);
 
   .title {
     font-size: x-large;

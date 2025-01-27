@@ -239,7 +239,7 @@ const work: Dashboard = {
         {
           title: "Packtrack",
           link: "https://packtrack.suse.cz/",
-          icon: "deployed_code",
+          icon: "code",
         }
       ],
     },

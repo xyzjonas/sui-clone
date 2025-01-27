@@ -41,18 +41,13 @@ const personal: Dashboard = {
       color: "#3876BF",
       bookmarks: [
         {
-          title: "Household HQ",
+          title: "Home",
           link: "https://home.bohunky.xyz/",
           icon: "payments",
         },
         {
           title: "Chef",
           link: "https://chef.bohunky.xyz/",
-          icon: "restaurant_menu",
-        },
-        {
-          title: "Chef #2",
-          link: "https://chef-nuxt.bohunky.xyz/",
           icon: "restaurant_menu",
         },
         {
@@ -66,30 +61,21 @@ const personal: Dashboard = {
           icon: "si-homeassistant",
         },
         {
-          title: "qBittorrent",
-          link: "https://torrent.bohunky.xyz",
-          icon: "file_download",
-          disabled: true,
-        },
-        {
           title: "Vehicles",
           link: "https://cars.bohunky.xyz",
           icon: "directions_car",
         },
         {
-          title: "Monica",
-          link: "https://monica.bohunky.xyz",
-          icon: "si-monica",
-        },
-        {
           title: "Files",
           link: "https://filebrowser.bohunky.xyz",
           icon: "folder_open",
+          disabled: true
         },
         {
           title: "Music",
           link: "https://music.bohunky.xyz",
           icon: "music_note",
+          disabled: true,
         },
         {
           title: "Miniflux",
@@ -107,30 +93,15 @@ const personal: Dashboard = {
       bookmarks: [
         {
           title: "Emby",
-          link: "https://emby.home.local",
+          // link: "https://emby.home.local",
+          link: "http://mokosh.home.local:8096",
           icon: "si-emby",
         },
         {
           title: "Jellyfin",
-          link: "https://jellyfin.home.local",
+          // link: "https://jellyfin.home.local",
+          link: "http://mokosh.home.local:8097",
           icon: "si-jellyfin",
-        },
-        {
-          title: "Chef",
-          link: "https://chef.home.local",
-          icon: "restaurant_menu",
-          disabled: true,
-        },
-        {
-          title: "Homeassistant",
-          link: "http://homeassistant.home.local:8123",
-          icon: "si-homeassistant",
-        },
-        {
-          title: "qBittorrent",
-          link: "https://qbittorrent.home.local/",
-          icon: "file_download",
-          disabled: true,
         },
         {
           title: "Mediasorter",
@@ -160,18 +131,13 @@ const personal: Dashboard = {
           icon: "si-pihole",
         },
         {
-          title: "Portainer.public",
-          link: "https://portainer.bohunky.xyz",
+          title: "Dockge",
+          link: "http://mokosh.home.local:5001",
           icon: "si-docker",
         },
         {
-          title: "Portainer.local",
-          link: "https://dazhbog.home.local:9443",
-          icon: "si-docker",
-        },
-        {
-          title: "Dazhbog",
-          link: "https://dazhbog.home.local:9090",
+          title: "App Server",
+          link: "https://mokosh.home.local:9090",
           icon: "si-fedora",
         },
       ]
@@ -195,7 +161,7 @@ const work: Dashboard = {
         },
         {
           title: "Smelt",
-          link: "https://gitlab.suse.de/tools/smash/",
+          link: "https://gitlab.suse.de/tools/smelt/",
           icon: "si-gitlab",
         },
         {

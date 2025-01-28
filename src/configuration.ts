@@ -227,29 +227,24 @@ const work: Dashboard = {
       ]
     },
     {
-      title: "Prod & stage",
+      title: "TEAM",
       icon: "si-suse",
       color: "#30ba78",
       bookmarks: [
         {
-          title: "Smash",
-          link: "https://smash.suse.de/",
-          icon: "settings",
+          title: "MAE Confluence",
+          link: "https://confluence.suse.com/display/MAE/Maintenance+Automation+Engineering",
+          icon: "si-confluence",
+        },
+        {
+          title: "Team meeting",
+          link: "https://confluence.suse.com/display/MAE/Team+Meeting",
+          icon: "si-confluence",
         },
         {
           title: "Smash (staging)",
           link: "https://smash-staging.mae.suse.de/",
           icon: "settings",
-        },
-        {
-          title: "Smelt",
-          link: "https://smelt.suse.de/overview/",
-          icon: "si-suse",
-        },
-        {
-          title: "AIMAAS",
-          link: "https://aimaas.suse.de/",
-          icon: "si-suse",
         },
       ]
     },

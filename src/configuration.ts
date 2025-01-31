@@ -136,9 +136,20 @@ const personal: Dashboard = {
           icon: "si-docker",
         },
         {
-          title: "App Server",
+          title: "Cockpit",
           link: "https://mokosh.home.local:9090",
           icon: "si-fedora",
+        },
+        {
+          title: "Beszel",
+          link: "https://beszel.bohunky.xyz/",
+          icon: "si-simpleanalytics",
+        },
+        {
+          title: "Edit This Page",
+          subtitle: "xyzjonas/sui-clone",
+          link: "https://github.com/xyzjonas/sui-clone/blob/main/src/configuration.ts",
+          icon: "si-github",
         },
       ]
     },

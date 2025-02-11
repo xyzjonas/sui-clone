@@ -253,9 +253,9 @@ const work: Dashboard = {
           icon: "si-confluence",
         },
         {
-          title: "Smash (staging)",
-          link: "https://smash-staging.mae.suse.de/",
-          icon: "settings",
+          title: "Penpot",
+          link: "https://penpot.app/",
+          icon: "si-penpot",
         },
       ]
     },

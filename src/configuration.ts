@@ -254,7 +254,7 @@ const work: Dashboard = {
         },
         {
           title: "Penpot",
-          link: "https://penpot.app/",
+          link: "https://design.penpot.app/",
           icon: "si-penpot",
         },
       ]

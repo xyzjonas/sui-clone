@@ -83,6 +83,11 @@ const personal: Dashboard = {
           icon: "si-rss",
           disabled: true,
         },
+        {
+          title: "Snippets",
+          link: "https://snippets.bohunky.xyz/",
+          icon: "code",
+        },
       ],
     },
     {

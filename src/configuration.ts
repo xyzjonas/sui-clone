@@ -146,6 +146,11 @@ const personal: Dashboard = {
           icon: "si-simpleanalytics",
         },
         {
+          title: "Backrest",
+          link: "http://mokosh.home.local:9898",
+          icon: "backup",
+        },
+        {
           title: "Edit This Page",
           subtitle: "xyzjonas/sui-clone",
           link: "https://github.com/xyzjonas/sui-clone/blob/main/src/configuration.ts",

@@ -267,6 +267,11 @@ const work: Dashboard = {
           link: "https://design.penpot.app/",
           icon: "si-penpot",
         },
+        {
+          title: "Intranet (SUSEvers)",
+          link: "https://sites.google.com/suse.com/suseverse/home",
+          icon: "si-suse",
+        }
       ]
     },
   ],

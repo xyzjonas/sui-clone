@@ -201,6 +201,11 @@ const work: Dashboard = {
           icon: "space_dashboard",
         },
         {
+          title: "My Issues",
+          link: "https://gitlab.suse.de/dashboard/issues?sort=updated_desc&state=opened&assignee_username[]=jbrauer&or[label_name][]=Doing&or[label_name][]=In+Refinement",
+          icon: "si-gitlab",
+        },
+        {
           title: "Github MAE",
           link: "https://github.com/orgs/SUSE/teams/maintenance-automation-engineering/repositories",
           icon: "si-github",

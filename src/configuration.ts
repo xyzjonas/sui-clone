@@ -206,6 +206,11 @@ const work: Dashboard = {
           icon: "si-gitlab",
         },
         {
+          title: "Opened MRs",
+          link: "https://gitlab.suse.de/groups/tools/-/merge_requests/?sort=updated_desc&state=opened&first_page_size=20",
+          icon: "si-git",
+        },
+        {
           title: "Github MAE",
           link: "https://github.com/orgs/SUSE/teams/maintenance-automation-engineering/repositories",
           icon: "si-github",

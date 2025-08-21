@@ -232,7 +232,7 @@ const work: Dashboard = {
           title: "IBS",
           link: "https://build.suse.de/",
           icon: "factory",
-        }
+        },
         {
           title: "Containers",
           link: "https://build.suse.de/project/show/NON_Public:maintenance:tools:containers",

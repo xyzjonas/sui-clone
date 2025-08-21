@@ -191,6 +191,11 @@ const work: Dashboard = {
           icon: "si-gitlab",
         },
         {
+          title: "Checkers",
+          link: "https://gitlab.suse.de/tools/checkers/",
+          icon: "si-gitlab",
+        },
+        {
           title: "Auto Config",
           link: "https://gitlab.suse.de/tools/auto_config/",
           icon: "si-gitlab",
@@ -224,6 +229,11 @@ const work: Dashboard = {
       color: "#79AC78",
       bookmarks: [
         {
+          title: "IBS",
+          link: "https://build.suse.de/",
+          icon: "factory",
+        }
+        {
           title: "Containers",
           link: "https://build.suse.de/project/show/NON_Public:maintenance:tools:containers",
           icon: "si-docker",
@@ -246,19 +256,25 @@ const work: Dashboard = {
       color: "#003cf0",
       bookmarks: [
         {
-          title: "ELK",
-          link: "http://elk.mae.suse.de:8000/app/discover#/view/874b3e50-eec7-11eb-862b-e3549ca4f21b",
-          icon: "si-elastic",
+          title: "Grafana Dashboard",
+          subtitle: "p-j8c2x-monitoring-grafana",
+          link: "https://op-prg2.openplatform.suse.com/k8s/clusters/c-m-nvlx4vnv/api/v1/namespaces/cattle-project-p-j8c2x-monitoring/services/http:cattle-project-p-j8c2x-monitoring-grafana:80/proxy/?orgId=1",
+          icon: "si-grafana",
         },
         {
           title: "Openplatform",
           link: "https://op-prg2.openplatform.suse.com/dashboard/home",
           icon: "si-rancher",
         },
+        {
+          title: "ELK",
+          link: "http://elk.mae.suse.de:8000/app/discover#/view/874b3e50-eec7-11eb-862b-e3549ca4f21b",
+          icon: "si-elastic",
+        },
       ]
     },
     {
-      title: "TEAM",
+      title: "SUSE",
       icon: "si-suse",
       color: "#30ba78",
       bookmarks: [

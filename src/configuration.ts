@@ -271,6 +271,11 @@ const work: Dashboard = {
           link: "http://elk.mae.suse.de:8000/app/discover#/view/874b3e50-eec7-11eb-862b-e3549ca4f21b",
           icon: "si-elastic",
         },
+        {
+          title: "Smelt Celery monitor",
+          link: "https://smelt.suse.de:8443/",
+          icon: "si-nuxt",
+        },
       ]
     },
     {

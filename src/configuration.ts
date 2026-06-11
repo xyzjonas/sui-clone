@@ -276,6 +276,11 @@ const work: Dashboard = {
           link: "https://smelt.suse.de:8443/",
           icon: "si-nuxt",
         },
+        {
+          title: "Signoz",
+          link: "http://monitoring.mae.suse.de:8080/",
+          icon: "monitor_heart",
+        },
       ]
     },
     {

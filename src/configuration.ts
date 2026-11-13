@@ -147,7 +147,7 @@ const personal: Dashboard = {
         },
         {
           title: "Beszel",
-          link: "https://beszel.bohunky.xyz/",
+          link: "https://beszel.home.local/",
           icon: "si-simpleanalytics",
         },
         {

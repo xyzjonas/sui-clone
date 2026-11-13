@@ -99,20 +99,20 @@ const personal: Dashboard = {
         {
           title: "Emby",
           // link: "https://emby.home.local",
-          link: "http://mokosh.home.local:8096",
+          link: "https://emby.home.local",
           icon: "si-emby",
         },
         {
           title: "Jellyfin",
           // link: "https://jellyfin.home.local",
-          link: "http://mokosh.home.local:8097",
+          link: "https://jellyfin.home.local",
           icon: "si-jellyfin",
         },
-        {
-          title: "Mediasorter",
-          link: "https://mediasorter.home.local",
-          icon: "recycling",
-        },
+        //{
+        // title: "Mediasorter",
+        // link: "https://mediasorter.home.local",
+        //  icon: "recycling",
+        //},
         {
           title: "Navidrome",
           link: "https://music.home.local",
@@ -137,12 +137,12 @@ const personal: Dashboard = {
         },
         {
           title: "Dockge",
-          link: "http://mokosh.home.local:5001",
+          link: "https://dockge.home.local",
           icon: "si-docker",
         },
         {
-          title: "Cockpit",
-          link: "https://mokosh.home.local:9090",
+          title: "Svarog",
+          link: "https://svarog.home.local",
           icon: "si-fedora",
         },
         {
@@ -152,7 +152,7 @@ const personal: Dashboard = {
         },
         {
           title: "Backrest",
-          link: "http://mokosh.home.local:9898",
+          link: "https://backrest.home.local",
           icon: "backup",
         },
         {
